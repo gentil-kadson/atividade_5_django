@@ -1,6 +1,6 @@
 from django.apps import AppConfig
 
 
-class AppAtv5Config(AppConfig):
+class AtvCincoConfig(AppConfig):
     default_auto_field = 'django.db.models.BigAutoField'
-    name = 'app_atv_5'
+    name = 'atividade_5_kadson.apps.atv_cinco'
