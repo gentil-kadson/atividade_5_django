@@ -37,7 +37,11 @@ INSTALLED_APPS = [
     'django.contrib.sessions',
     'django.contrib.messages',
     'django.contrib.staticfiles',
-    'atividade_5_kadson.apps.atv_cinco',
+    'apps.atv_cinco',
+]
+
+STATICFILES_DIRS = [
+    BASE_DIR / "static"
 ]
 
 MIDDLEWARE = [
