@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <a href="/"><img src="public/icons/logo.svg" alt="logo"></a>
+        <a href="/"><img src="{% static 'public/icons/logo.svg' %}" alt="logo"></a>
         <form action="" class="searchBar">
             <select name="categorias" id="buscaCategorias">
                 <option value="categorias">Categorias</option>
@@ -29,12 +29,12 @@
                 <option value="social">Social</option>
             </select>
             <input type="text" placeholder="Pesquise aqui...">
-            <button><img src="/public/icons/search.svg" alt="search" title="Pesquisar"></button>
+            <button><img src="{% static 'public/icons/search.svg' %}" alt="search" title="Pesquisar"></button>
         </form>
         <nav>
             <ul>
-                <li><a href="/pages/carrinho.html"><img src="/public/icons/bag.svg" alt="sacola de compras"></a></li>
-                <li><a href="/pages/login.html"><img src="/public/icons/user.svg" alt="perfil"></a></li>
+                <li><a href="/pages/carrinho.html"><img src="{% static 'public/icons/bag.svg' %}" alt="sacola de compras"></a></li>
+                <li><a href="/pages/login.html"><img src="{% static 'public/icons/user.svg' %}" alt="perfil"></a></li>
             </ul>
         </nav>
     </header>
@@ -49,10 +49,10 @@
                     <div class="redes-sociais">
                         <h2>Redes sociais</h2>
 
-                        <a href="#"><img src="public/icons/insta.png" alt="Instagram"></a>
-                        <a href="#"><img src="public/icons/linkedin.png" alt="Linkedin"></a>
-                        <a href="#"><img src="public/icons/tt.png" alt="Twitter"></a>
-                        <a href="#"><img src="public/icons/Whats.png" alt="Whatsapp"></a>
+                        <a href="#"><img src="{% static 'public/icons/insta.png' %}" alt="Instagram"></a>
+                        <a href="#"><img src="{% static 'public/icons/linkedin.png' %}" alt="Linkedin"></a>
+                        <a href="#"><img src="{% static 'public/icons/tt.png' %}" alt="Twitter"></a>
+                        <a href="#"><img src="{% static 'public/icons/Whats.png' %}" alt="Whatsapp"></a>
                     </div>
 
                     <div class="emial">
@@ -88,10 +88,10 @@
         </div>
         <div id="mobileFooter">
             <div class="redes-sociais">
-                <a href="#"><img src="public/icons/insta.png" alt="Instagram"></a>
-                <a href="#"><img src="public/icons/linkedin.png" alt="Linkedin"></a>
-                <a href="#"><img src="public/icons/tt.png" alt="Twitter"></a>
-                <a href="#"><img src="public/icons/Whats.png" alt="Whatsapp"></a>
+                <a href="#"><img src="{% static 'public/icons/insta.png' %}" alt="Instagram"></a>
+                <a href="#"><img src="{% static 'public/icons/linkedin.png' %}" alt="Linkedin"></a>
+                <a href="#"><img src="{% static 'public/icons/tt.png' %}" alt="Twitter"></a>
+                <a href="#"><img src="{% static 'public/icons/Whats.png' %}" alt="Whatsapp"></a>
             </div>
             <br>
             <p>Lukao Multimarcas © 2022</p>
