@@ -119,7 +119,6 @@ STATIC_URL = 'static/'
 
 STATICFILES_DIRS = [
     BASE_DIR / "static",
-    BASE_DIR / "apps/atv_cinco/static",
 ]
 
 # Default primary key field type

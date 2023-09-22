@@ -17,7 +17,7 @@
 
 <body>
     <header>
-        <a href="/"><img src="{% static 'public/icons/logo.svg' %}" alt="logo"></a>
+        <a href="{% url 'index' %}"><img src="{% static 'public/icons/logo.svg' %}" alt="logo"></a>
         <form action="" class="searchBar">
             <select name="categorias" id="buscaCategorias">
                 <option value="categorias">Categorias</option>
@@ -34,7 +34,7 @@
         <nav>
             <ul>
                 <li><a href="/pages/carrinho.html"><img src="{% static 'public/icons/bag.svg' %}" alt="sacola de compras"></a></li>
-                <li><a href="/pages/login.html"><img src="{% static 'public/icons/user.svg' %}" alt="perfil"></a></li>
+                <li><a href="{% url 'login' %}"><img src="{% static 'public/icons/user.svg' %}" alt="perfil"></a></li>
             </ul>
         </nav>
     </header>
